@@ -1,5 +1,5 @@
 # Hale
-___  
+  
 ## Overview
 ### Hale For Patients  
 Folks with chronic diseases often visit a lot of doctors for second opinions. More doctors = more prescriptions and diagnoses = more paperwork. After a certain time period, managing so many prescription documents often becomes unwieldy. Hale maintains a timeline of all your medical discourses.
