@@ -1,0 +1,71 @@
+<div class="container" id="mainwindow">
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="card" style="width: 22rem;">
+                <img class="card-img-top" src="./assets/images/doctor.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">SignUp as a doctor</h5>
+                    <p class="card-text">AI assist to prescribe drugs and view health journal of users.</p>
+                    <a (click)="doctor()" class="btn btn-success">SignUp</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="card" style="width: 22rem;">
+                <img class="card-img-top" src="./assets/images/user.png" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">SignUp as a user</h5>
+                    <p class="card-text">Manage your health jounal and keep track of your fitness.</p>
+                    <a (click)="user()" class="btn btn-primary">SignUp</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div *ngIf="asuser" class="container myflex">
+    <hr>
+    <h1>Signing up as user</h1>
+    <form [formGroup]="userForm">
+        <div class="form-group">
+            <label for="fullname">Full Name</label>
+            <input formControlName="fullName" type="text" class="form-control" placeholder="First name" formCo>
+        </div>
+
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input formControlName="email" type="email" class="form-control" id="exampleInputEmail1"
+                aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+
+<div *ngIf="asdoctor" class="container myflex">
+    <hr>
+    <h1>Signing up as Doctor</h1>
+    <form [formGroup]="userForm">
+
+        <div class="form-group">
+            <label for="fullname">Full Name</label>
+            <input formControlName="fullName" type="text" class="form-control" placeholder="First name" formCo>
+        </div>
+
+        <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input formControlName="email" type="email" class="form-control" id="exampleInputEmail1"
+                aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Password</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
