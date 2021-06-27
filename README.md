@@ -2,8 +2,10 @@
   
 ## Overview
 ### Hale For Patients  
-Folks with chronic diseases often visit a lot of doctors for second opinions. More doctors = more prescriptions and diagnoses = more paperwork. After a certain time period, managing so many prescription documents often becomes unwieldy. Hale maintains a timeline of all your medical discourses.
-###Hale For Doctors  
+Folks with chronic diseases often visit a lot of doctors for second opinions.  
+More doctors = more prescriptions and diagnoses = more paperwork.  
+After a certain time period, managing so many prescription documents often becomes unwieldy. Hale maintains a timeline of all your medical discourses.  
+### Hale For Doctors  
 Doctors are humans and humans make mistakes. Misdiagnosis remains a problem in the medical world with considerably awful consequences. With Hale, we attempt to solve this problem using Natural Language Processing.
 
 ## Problems that Hale solves  
